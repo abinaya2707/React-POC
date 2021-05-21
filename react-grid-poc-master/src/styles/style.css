@@ -1,0 +1,97 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: "border-box";
+          box-sizing: "border-box";
+}
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New", monospace;
+}
+
+.EntryFormHead {
+  max-width: 1000px;
+  margin: 30px auto;
+  border: 1px solid #999;
+}
+
+.EntryFormHead .EntryFormTitle {
+  background: #3f51b5;
+  border: 1px solid #3f51b5;
+  padding: 10px 10px;
+  color: #fff;
+  font-weight: 600;
+}
+
+.EntryFormHead .EntryFormAdd {
+  padding: 20px;
+}
+
+.EntryFormHead .EntryFormAdd .EntryFormAddTitle {
+  margin-top: 30px;
+  color: #20b8ff;
+  padding: 5px 0;
+  border-bottom: 1px solid #999;
+}
+
+.EntryFormHead .EntryFromValidation div {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.ListFromSearchBox {
+  width: 200px;
+  margin: 20px 0;
+  height: 45px;
+  background: #f3f3f3;
+  border-bottom: 1px solid #999;
+}
+
+.ListFromSearchBox .ListFromSearchBoxFlex {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  height: 45px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.ListFromSearchBox .ListFromSearchBoxFlex input {
+  -ms-flex-preferred-size: 80%;
+      flex-basis: 80%;
+  padding-left: 10px;
+  border: none;
+  outline: none;
+  width: 100%;
+  height: 100%;
+  background: none;
+}
+
+.ListFromSearchBox .ListFromSearchBoxFlex div {
+  -ms-flex-preferred-size: 20%;
+      flex-basis: 20%;
+  text-align: center;
+}
+
+.ListFromSearchBox .ListFromSearchBoxFlex div svg {
+  cursor: pointer;
+}
+
+.FormMainClass {
+  margin-top: 10px;
+  padding-bottom: 30px;
+}
+
+.ListForm {
+  margin-top: 80px;
+}
+/*# sourceMappingURL=style.css.map */

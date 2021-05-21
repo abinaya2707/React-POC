@@ -1,0 +1,62 @@
+.EntryFormHead {
+  max-width: 1000px;
+  margin: 30px auto;
+  border: 1px solid #999;
+
+  .EntryFormTitle {
+    background: #3f51b5;
+    border: 1px solid #3f51b5;
+    padding: 10px 10px;
+    color: #fff;
+    font-weight: 600;
+  }
+  .EntryFormAdd {
+    padding: 20px;
+    .EntryFormAddTitle { 
+      margin-top: 30px;
+      color: #20b8ff;
+      padding: 5px 0;
+      border-bottom: 1px solid #999;
+    }
+  }
+  .EntryFromValidation {
+    div {
+      display: flex;
+    }
+  }
+}
+.ListFromSearchBox {
+  width: 200px;
+  margin: 20px 0;
+  height: 45px;
+  background: rgb(243, 243, 243);
+  border-bottom: 1px solid #999;
+  .ListFromSearchBoxFlex {
+    display: flex;
+    height: 45px;
+    align-items: center;
+    input {
+      flex-basis: 80%;
+      padding-left: 10px;
+      border: none;
+      outline: none;
+      width: 100%;
+      height: 100%;
+      background: none;
+    }
+    div {
+      flex-basis: 20%;
+      text-align: center;
+      svg {
+        cursor: pointer;
+      }
+    }
+  }
+}
+.FormMainClass{
+  margin-top: 10px;
+  padding-bottom: 30px;
+}
+.ListForm{
+  margin-top: 80px;
+}
